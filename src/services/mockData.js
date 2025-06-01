@@ -1,0 +1,143 @@
+export const mockPosts = [
+  {
+    id: '1',
+    platform: 'instagram',
+    username: 'travel_enthusiast',
+    userImage: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Exploring the beautiful beaches of Bali! 🏝️ #travel #bali #vacation',
+    image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=600',
+    likes: 1243,
+    comments: 89,
+    timestamp: new Date('2023-06-15T14:30:00').toISOString(),
+    verified: true
+  },
+  {
+    id: '2',
+    platform: 'twitter',
+    username: 'tech_news',
+    userImage: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Breaking: New AI model can now generate realistic videos from text prompts. This could revolutionize content creation! #AI #Technology',
+    likes: 532,
+    retweets: 126,
+    comments: 43,
+    timestamp: new Date('2023-06-16T09:45:00').toISOString(),
+    verified: true
+  },
+  {
+    id: '3',
+    platform: 'medium',
+    username: 'coding_master',
+    userImage: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=100',
+    title: 'Why React Hooks Changed Everything',
+    content: 'React Hooks were introduced in React 16.8 and completely changed how we think about state management and side effects in React components...',
+    readTime: '5 min read',
+    likes: 342,
+    timestamp: new Date('2023-06-14T11:20:00').toISOString(),
+    topics: ['Programming', 'React', 'JavaScript']
+  },
+  {
+    id: '4',
+    platform: 'instagram',
+    username: 'food_lover',
+    userImage: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Homemade pasta with fresh tomato sauce! 🍝 #foodie #homecooking',
+    image: 'https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=600',
+    likes: 876,
+    comments: 32,
+    timestamp: new Date('2023-06-15T18:10:00').toISOString()
+  },
+  {
+    id: '5',
+    platform: 'twitter',
+    username: 'finance_expert',
+    userImage: 'https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Market update: S&P 500 up 2% today following positive economic data. Tech stocks leading the rally. $AAPL $MSFT $GOOGL #stocks #investing',
+    likes: 245,
+    retweets: 87,
+    comments: 19,
+    timestamp: new Date('2023-06-16T16:30:00').toISOString(),
+    verified: true
+  },
+  {
+    id: '6',
+    platform: 'medium',
+    username: 'health_guru',
+    userImage: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100',
+    title: '5 Morning Habits That Will Transform Your Day',
+    content: 'The way you start your morning sets the tone for the rest of your day. In this article, I share 5 science-backed habits that can boost your productivity and well-being...',
+    readTime: '7 min read',
+    likes: 567,
+    timestamp: new Date('2023-06-13T08:45:00').toISOString(),
+    topics: ['Health', 'Productivity', 'Wellness']
+  },
+  {
+    id: '7',
+    platform: 'instagram',
+    username: 'fitness_coach',
+    userImage: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Monday motivation! Remember, consistency is key to achieving your fitness goals. 💪 #fitness #workout #motivation',
+    image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600',
+    likes: 1102,
+    comments: 74,
+    timestamp: new Date('2023-06-16T07:15:00').toISOString(),
+    verified: true
+  },
+  {
+    id: '8',
+    platform: 'twitter',
+    username: 'movie_buff',
+    userImage: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Just watched the new sci-fi thriller and it blew my mind! Easily one of the best films of the year. No spoilers, but you NEED to see this! #movies #filmreview',
+    likes: 328,
+    retweets: 54,
+    comments: 37,
+    timestamp: new Date('2023-06-15T22:40:00').toISOString()
+  },
+  {
+    id: '9',
+    platform: 'medium',
+    username: 'travel_writer',
+    userImage: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100',
+    title: 'Hidden Gems of Southeast Asia',
+    content: `Beyond the tourist hotspots lie countless undiscovered treasures. After spending three months backpacking through Southeast Asia, I'm sharing my favorite off-the-beaten-path destinations...`,
+    readTime: '10 min read',
+    likes: 894,
+    timestamp: new Date('2023-06-12T15:30:00').toISOString(),
+    topics: ['Travel', 'Adventure', 'Asia']
+  },
+  {
+    id: '10',
+    platform: 'instagram',
+    username: 'art_creator',
+    userImage: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'My latest painting inspired by the changing seasons. Art is a journey, not a destination. 🎨 #art #painting #creative',
+    image: 'https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=600',
+    likes: 765,
+    comments: 28,
+    timestamp: new Date('2023-06-14T12:10:00').toISOString()
+  },
+  {
+    id: '11',
+    platform: 'twitter',
+    username: 'tech_ceo',
+    userImage: 'https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=100',
+    content: 'Excited to announce we\'ve raised $50M in Series B funding! This investment will help us scale our platform and bring innovative solutions to more customers worldwide. Grateful for our amazing team and investors! #startup #funding',
+    likes: 1876,
+    retweets: 432,
+    comments: 215,
+    timestamp: new Date('2023-06-16T11:20:00').toISOString(),
+    verified: true
+  },
+  {
+    id: '12',
+    platform: 'medium',
+    username: 'future_thinker',
+    userImage: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100',
+    title: 'The Metaverse: Hype or the Next Internet Revolution?',
+    content: 'As tech giants invest billions in building the metaverse, we need to ask whether this is truly the next evolution of the internet or just another technological fad...',
+    readTime: '8 min read',
+    likes: 723,
+    timestamp: new Date('2023-06-13T14:45:00').toISOString(),
+    topics: ['Technology', 'Future', 'Metaverse']
+  }
+]
